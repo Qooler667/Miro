@@ -50,8 +50,15 @@ header {
     align-items: center;
     display: flex;
     gap: 35px;
-    padding-left: 50px;
     margin-bottom: 60px;
+    position: relative;
+    left: 125px;
+}
+
+.logo_header {
+    position: absolute;
+    top: 25px;
+
 }
 
 .container {
