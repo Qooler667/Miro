@@ -11,10 +11,7 @@
     src: url(../Fonts/Roboto-Regular.ttf);
 }
 
-body {
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 
 h1,
 h2,
@@ -37,6 +34,13 @@ h2 {
 
 header {
     background: linear-gradient(rgb(222, 222, 222), white);
+}
+
+.nav_section,
+main,
+.footer_section {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .text>p {
